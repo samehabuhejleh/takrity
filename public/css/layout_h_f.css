@@ -1,0 +1,71 @@
+
+
+ .navbar-default{
+    background-color: #237ae4b3;
+}
+ .navbar-header #logo{
+ padding-right: 30px;
+}
+  #mymenu .nav {
+    padding:10px;
+ }
+ #mymenu .nav li a{
+    color:white;
+    font-size:20px;
+ }
+ .navbar-right{
+    padding:10px;
+    padding-left:20px;
+    float:left;
+ }
+ .navbar-right #search{
+    padding-left:20px;
+    border:none;
+    padding-right:10px;
+ }
+ #get{
+     padding-left: 20px;
+     padding-bottom: 10px;
+ }
+ #Menue{
+     padding-bottom: 10px;
+     padding-left: 30px;
+ }
+ .main .list .list1 li{
+    list-style: none;
+}
+ .main .list .list2 li{
+     list-style: none;
+ }
+ .main .list .list1  a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.main .list .list2  a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#email{
+    text-decoration: none;
+    color: black;
+}
+#footer{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .containerfoo {
+      text-align: center;
+    }
+
+  }
+  #hr{
+
+    border-color:gray ;
+    position: relative;
+}
+.containerfoo{
+  padding-top: 50px;
+}

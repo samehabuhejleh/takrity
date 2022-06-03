@@ -1,0 +1,47 @@
+.img_portfolio #img_portfolio
+{
+    width: 100%;
+    position: relative;
+    top: -20px;
+}
+#portfolio{
+    text-align: center;
+    padding-top: 20px;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+@media only screen and (min-width: 600px) {
+#p_portfolio{
+    padding-top: 50px;
+    color: #888;
+    font-family: TimesNewRomanPSMT, Times New Roman;
+   padding-right: 150px;
+   padding-left: 150px;
+   font-size: 18px;
+   padding-bottom: 90px;
+}
+}
+@media only screen and (max-width: 600px) {
+    #p_portfolio{
+        padding-top: 50px;
+        color: #888;
+        font-family: TimesNewRomanPSMT, Times New Roman;
+         font-size: 18px;
+         padding-left: 60px;
+         padding-right: 60px;
+       padding-bottom: 90px;
+    }
+}
+.con_portfolio{
+    background-color: #237ae4;
+}
+#img_down{
+    width:100%;
+    height: 300px;
+}
+#download{
+    padding-top: 90px;
+    padding-left: 80px;
+    font-size: 30px;
+    color: white;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}

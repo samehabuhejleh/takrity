@@ -1,0 +1,23 @@
+
+#img_products_2{
+    width: 100%;
+    position: relative;
+    top: -20px;
+}
+#Low-Voltage{
+    text-align: center;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+#tit_product_2{
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+    font-size: 40px;
+}
+@media only screen and (max-width: 600px) {
+    .product2{
+        text-align: center;
+    }
+}
+#a1{
+    text-decoration: none;
+    color: black;
+}

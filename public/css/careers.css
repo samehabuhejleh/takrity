@@ -1,0 +1,179 @@
+.img_careers #img_careers{
+    position: relative;
+    width: 100%;
+    top: -20px;
+}
+#careers
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+
+.container_form
+{
+    background-color: #237ae4;
+    padding-bottom: 90px;
+}
+#p_careers{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.fullname{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.birthPlace{
+    padding-bottom: 20px;
+}
+.dateOfBirth{
+    padding-bottom: 20px;
+}
+.Nationality{
+    padding-bottom: 20px;
+}
+.Gender{
+    padding-bottom: 20px;
+}
+.EmailAddress{
+    padding-bottom: 20px;
+}
+.MobileNo{
+    padding-bottom: 20px;
+}
+#text_full
+{
+    margin-top: 22px;
+    height: 40px;
+}
+#text_birth{
+    margin-top: 22px;
+    height: 40px;
+}
+#text_dateOfBirth{
+    margin-top: 22px;
+    height: 40px;
+}
+#text_Nationality{
+    margin-top: 22px;
+    height: 40px;
+}
+#text_Gender{
+    margin-top: 22px;
+    height: 40px;
+}
+#text_EmailAddress{
+    margin-top: 22px;
+    height: 40px;
+}
+#text_MobileNo{
+    margin-top: 22px;
+    height: 40px;
+}
+.Personal_Info_form{
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+}
+#PersonalInfo{
+    padding-bottom: 30px;
+    padding-left: 40px;
+    color: #237ae4;
+}
+@media only screen and (min-width: 600px) {
+    .PersonalInfocolor{
+        background-color: white;
+         margin-right: 800px;
+    }
+    .Preferencescolor{
+        background-color: white;
+        margin-right: 800px;
+    }
+    .Commentscolor{
+        background-color: white;
+        margin-right: 800px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .PersonalInfocolor{
+        background-color: white;
+         margin-right: 110px;
+    }
+    .Preferencescolor{
+        background-color: white;
+        margin-right: 110px;
+    }
+    .Commentscolor{
+        background-color: white;
+        margin-right: 110px;
+    }
+}
+
+
+#font{
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+#Preferences{
+    padding-left: 40px;
+    color: #237ae4;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+#text_Languages{
+margin-top: 22px;
+height: 40px;
+}
+.Experinces{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.Languages{
+    padding-left: 40px;
+    padding-bottom: 60px;
+    margin-bottom: 90px;
+}
+.Preferences_form{
+    background-color: white;
+    padding-right: 30px;
+}
+#Comments{
+    padding-left: 40px;
+    color: #237ae4;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+#cv{
+    margin-top: 23px;
+}
+.Messages
+{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.UploadCV{
+    padding-left: 40px;
+    padding-bottom: 60px;
+    margin-bottom: 90px;
+}
+.Comments_form{
+    background-color: white;
+    padding-right: 30px;
+}
+#submit_form{
+    width: 200px;
+    height: 70px;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+}
+.submit{
+    text-align: center;
+}

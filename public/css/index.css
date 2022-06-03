@@ -1,0 +1,307 @@
+* {box-sizing: border-box}
+
+#img_sli{
+    width: 100%;
+    height: 550px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#img_sli:hover {
+    opacity: 0.7;
+}
+img {
+    vertical-align: middle;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position:relative;
+  top: -20px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+   position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ opacity: 1;
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+ @media only screen and (min-width: 600px) {
+  .fade .text {
+position: absolute;
+   color: white;
+   top:20px;
+  text-align: center;
+}
+.fade .text #text{
+    padding-bottom: 25px;
+    padding-right: 20px;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+.fade .text #tit_p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+.fade .text #read_more{
+    width: 250px;
+    height: 60px;
+    border: none;
+    margin-right: 40px;
+    background-color: #237ae4;
+    font-size: 18px;
+}
+  }
+
+  @media only screen and (max-width: 600px) {
+    .fade .text {
+  position: absolute;
+     color: white;
+     top:10px;
+    text-align: center;
+  }
+  .fade .text #text{
+      padding-bottom: 25px;
+      font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+  }
+  .fade .text #tit_p{
+      font-size: 20px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 20px;
+      font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+  }
+  .fade .text #read_more{
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: #237ae4;
+
+}
+#img_sli{
+    width: 100%;
+    height: 450px;
+}
+.con_f{
+    padding-bottom: 20px;
+}
+    }
+
+#product{
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+.product{
+    text-align: center;
+}
+
+.product #tit_product{
+    color: #3b3b3b;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+    padding-bottom: 10px;
+}
+.product #p_product{
+    color: #888;
+    font-family: TimesNewRomanPSMT, Times New Roman;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.view_all{
+    text-align: center;
+    margin-top: 50px;
+}
+.view_all #view_all_product{
+width: 200px;
+height: 60px;
+border: none;
+background-color: #237ae4;
+color: white;
+font-size: 28px;
+font-family: TimesNewRomanPSMT, Times New Roman;
+margin-bottom: 50px;
+}
+
+.con_f{
+    background-color: #237ae4;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+}
+.portfolio #img_portfolio{
+    width: 100%;
+}
+.portfolio #tit_portfolio
+{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+    color: white;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+.portfolio #p_portfolio{
+    padding-bottom: 50px;
+    color: white;
+    font-size: 18px;
+    font-family: Ubuntu-Medium, Ubuntu;
+}
+@media only screen and (max-width: 600px) {
+    .portfolio #view_all_portfolio{
+        width: 220px;
+        height: 70px;
+        border: none;
+        background-color: #fff;
+        font-size: 26px;
+        margin-left: 100px;
+        font-family: TimesNewRomanPSMT, Times New Roman;
+        }
+        #img-pp{
+            width: 100%;
+        }
+
+}
+@media only screen and (min-width: 600px) {
+.portfolio #view_all_portfolio{
+    width: 220px;
+    height: 70px;
+    border: none;
+    background-color: #fff;
+    font-size: 26px;
+    margin-left: 120px;
+    font-family: TimesNewRomanPSMT, Times New Roman;
+    }
+}
+
+    #recent_news{
+        font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+        padding-bottom: 80px;
+        font-size: 40px;
+    }
+#img_sli_news{
+    height: 400px;
+   width: 100%;
+   padding-left: 70px;
+}
+#tit_news{
+    padding-top: 30px;
+    color: #887;
+}
+#d_news{
+    padding-top: 25px;
+    color: #887;
+}
+#p_news{
+   font-family: Ubuntu-Light, Ubuntu;
+   color: #888;
+   font-size: 20px;
+   padding-right: 40px;
+   padding-top: 25px;
+}
+.view_all_news{
+    text-align: center;
+}
+.view_all_news #view_all_news{
+    width: 200px;
+height: 70px;
+border: none;
+background-color: #237ae4;
+color: white;
+font-size: 28px;
+font-family: TimesNewRomanPSMT, Times New Roman;
+margin-top: 60px;
+}
+#img_rig2,#img_rig1{
+    width: 40px;
+    height: 40px;
+}
+
+#a_aboutus{
+    text-decoration: none;
+    color: white;
+}
+#a_portfolio{
+    text-decoration: none;
+    color: black;
+}
+
+
+  .card {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+
+   }
+
+   On mouse-over, add a deeper shadow
+   .card:hover {
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   }
+
+   #imgnews{
+       width: 100%;
+       height: 300px;
+   }
+
+#aa_ne{
+    text-decoration: none;
+}
+#a_pro{
+    text-decoration: none;
+}
+
+
+
+
+

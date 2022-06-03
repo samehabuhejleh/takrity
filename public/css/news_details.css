@@ -1,0 +1,32 @@
+.img_news_details #img_news_details{
+    width: 100%;
+    position: relative;
+    top: -20px;
+}
+#news_det{
+    text-align: center;
+    padding-top: 10px;
+}
+#img_news_det{
+    padding-top: 70px;
+}
+@media only screen and (max-width: 600px) {
+    #img_news_det{
+        width: 100%;
+    }
+}
+#tit_news_details{
+    padding-top: 50px;
+}
+#date_news_details{
+    color: #3b3b3b;
+    font-family:Ubuntu-Medium, Ubuntu ;
+    padding-top: 10px;
+}
+#p_news_details{
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: Ubuntu-Light, Ubuntu;
+    color: #888;
+}
+

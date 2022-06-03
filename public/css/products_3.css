@@ -1,0 +1,23 @@
+.img_products_3 #img_products_3{
+    width: 100%;
+   position: relative;
+  top: -20px;
+}
+.product_3{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.img_tit{
+    text-align: center;
+    padding-top: 70px;
+}
+#tit_product_3{
+    font-size: 40px;
+    font-family: TimesNewRomanPS-BoldMT, Times New Roman;
+}
+#p_products_3{
+    font-family: TimesNewRomanPSMT, Times New Roman;
+    padding-top: 50px;
+    color: #888;
+    font-size: 18px;
+}
