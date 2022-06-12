@@ -3,12 +3,15 @@
     top: -20px;
     position: relative;
 }
-.img_about #p_about{
-    position: absolute;
-    top: 300px;
+@media only screen and (max-width: 600px) {
+    #p_about{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
 }
 @media only screen and (min-width: 600px) {
-    .img_about #p_about{
+     #p_about{
         position: absolute;
         top: 250px;
         color: white;
@@ -18,17 +21,7 @@
         text-align: center;
     }
 }
-@media only screen and (max-width: 600px) {
-    .img_about #p_about{
-        position: absolute;
-        top: 100px;
-        color: white;
-        font-size: 20px;
-        text-align: center;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
+
 #tit_about{
     text-align: center;
     padding-top: 20px;
