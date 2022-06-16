@@ -51,7 +51,7 @@ class Takrity extends Controller
 
     public function new()
     {
-        $news=DB::select('select * from news');
+        $news=DB::select('select * from news LIMIT 6');
         return view('takrity.news',compact('news'));
     }
 

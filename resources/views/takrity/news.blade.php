@@ -23,21 +23,21 @@
       @foreach ( $news as $item )
      <a href="{{route('news_details',$item->id)}}"id="a_news"> <h3 id='lorem'>{{$item->title}} <br>
           sit amet</h3></a>
-      <a href="{{route('news_details',$item->id)}}"id="a_news"><h4 id='lorem'>{{$item->date,}}</h4></a>
+      <a href="{{route('news_details',$item->id)}}"id="a_news"><h4 id='lore'>{{$item->date}}</h4></a>
 
       @endforeach
     </div>
+
     @foreach ( $news as $item )
-
-
     <div class="col-md-3 card">
        <a href="{{route('news_details',$item->id)}}" id="a_news"> <img src="{{URL::asset($item->image)}}" id="imgnn" ></a>
          <a href="{{route('news_details',$item->id)}}"id="a_news"><h4 id="date">{{$item->date}}</h4></a>
          <a href="{{route('news_details',$item->id)}}"id="a_news"> <h3 id="Lorem-ipsum">{{$item->title}}</h3></a>
     </div>
+
     @endforeach
+  </div>
  </div>
-</div>
 @endsection
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

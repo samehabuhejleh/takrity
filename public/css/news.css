@@ -20,11 +20,12 @@
   }
 
   #news{
+
       padding-top: 50px;
-      padding-bottom: 40px;
+      margin-bottom: 40px;
   }
   #img_news_toppost{
-      position: relative;
+      position: absolute;
       padding-top: 20px;
   }
   @media only screen and (max-width: 600px) {
@@ -57,9 +58,10 @@
   }
 
   #top_post{
-      position: absolute;
+      position: relative;
       top: 30;
       font-family: SegoeUI-Bold, Segoe UI;
+      padding-bottom: 40px;
   }
 #Lorem_ipsum{
     position: absolute;
@@ -81,8 +83,18 @@
 }
 #lorem
 {
-    top:-880px;
+    padding-top: 20px;
     position: relative;
     padding-left: 50px;
-   
+
+}
+#lore
+{
+
+    position: relative;
+    padding-left: 50px;
+
+}
+.news{
+    padding-bottom: 350px;
 }
